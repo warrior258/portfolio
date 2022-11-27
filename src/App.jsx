@@ -34,27 +34,27 @@ const App = () => {
 
         <div className="fixed top-0 left-[50%] translate-x-[-50%] translate-y-0  md:w-56 w-48 md:h-10 h-9 z-10 rounded-b-lg bg-gray-400 backdrop-filter backdrop-blur-xl bg-opacity-10 border border-gray-400 border-opacity-5 flex flex-row justify-around items-center dark:bg-[#242424] dark:bg-opacity-90">
           <a href="https://www.linkedin.com/in/vaibhav-bedi-17aa5520a" target={'_blank'}>
-            <img src="/assets/linkdin.svg" alt="" className="w-[22px] cursor-pointer duration-200 active:scale-90"/>
+            <img src="assets/linkdin.svg" alt="" className="w-[22px] cursor-pointer duration-200 active:scale-90"/>
           </a>
 
           <a href="https://github.com/warrior258" target={'_blank'}>
-            <img src="/assets/github.svg" alt="" className="w-[22px] cursor-pointer duration-200 active:scale-90"/>
+            <img src="assets/github.svg" alt="" className="w-[22px] cursor-pointer duration-200 active:scale-90"/>
           </a>
 
           <a href="https://twitter.com/valbhav07" target={'_blank'}>
-            <img src="/assets/twitter.svg" alt="" className="w-[22px] cursor-pointer duration-200 active:scale-90"/>
+            <img src="assets/twitter.svg" alt="" className="w-[22px] cursor-pointer duration-200 active:scale-90"/>
           </a>
 
           {/* Dark-Night Mode Button */}
           
           <button onClick={handleThemeSwitch} className=''>
-            <img src={theme === "dark" ? `/assets/moon.svg` : `/assets/sun.svg`} alt="" className="w-[22px] duration-300 active:scale-90 active:rotate-45" />
+            <img src={theme === "dark" ? `assets/moon.svg` : `assets/sun.svg`} alt="" className="w-[22px] duration-300 active:scale-90 active:rotate-45" />
           </button>
           
         </div>
         
         <div className='text-gray-200 dark:text-[#242424] flex md:flex-row flex-col justify-center items-center md:gap-20 gap-10'>
-          <img src={theme === "dark" ? `/assets/heroDark.svg` : `/assets/hero.svg`} alt="" className='md:w-4/12 sm:w-6/12 w-8/12' />
+          <img src={theme === "dark" ? `assets/heroDark.svg` : `assets/hero.svg`} alt="" className='md:w-4/12 sm:w-6/12 w-8/12' />
           <div className='md:w-4/12 sm:w-8/12 w-10/12'>
             <p className='text-justify leading-7 md:text-lg'>Hello, I'm <strong className="text-orange-300">Vaibhav Bedi</strong>. I'm a Developer and Designer. I provide freelance services for Web Development, Facebook ads and desgin content need.</p>
             {/* <p>Join me below!</p> */}
@@ -69,7 +69,7 @@ const App = () => {
           <div className='md:flex md:justify-around md:items-center flex-wrap'>
             <div className='border-2 border-gray-400 dark:border-[#242424] rounded-md overflow-hidden md:w-3/12 md:my-5 my-10 cursor-pointer hover:scale-105 duration-200'>
               <div className="relative">
-                <img src="/assets/crypto.png" alt="" className='w-full' />
+                <img src="assets/crypto.png" alt="" className='w-full' />
                 <div className="group-hover:bg-gray-400 group-hover:bg-opacity-10 absolute top-0 w-full h-full hover:backdrop-filter hover:backdrop-blur-sm opacity-0 hover:opacity-100 duration-200">
                   <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-300 text-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
                 </div>
@@ -86,7 +86,7 @@ const App = () => {
             </div>
             <div className='border-2 border-gray-400 dark:border-[#242424] rounded-md overflow-hidden md:w-3/12 md:my-5 my-10 hover:scale-105 duration-200 cursor-pointer'>
             <div className="relative">
-                <img src="/assets/book.png" alt="" className='w-full' />
+                <img src="assets/book.png" alt="" className='w-full' />
                 <div className="group-hover:bg-gray-400 group-hover:bg-opacity-10 absolute top-0 w-full h-full hover:backdrop-filter hover:backdrop-blur-sm opacity-0 hover:opacity-100 duration-200">
                   <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-orange-300 bg-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
                 </div>
@@ -106,7 +106,7 @@ const App = () => {
             </div>
             <div className='border-2 border-gray-400 dark:border-[#242424] rounded-md overflow-hidden md:w-3/12 md:my-5 my-10 hover:scale-105 duration-200 cursor-pointer'>
             <div className="relative">
-                <img src="/assets/courx.png" alt="" className='w-full' />
+                <img src="assets/courx.png" alt="" className='w-full' />
                 <div className="group-hover:bg-gray-400 group-hover:bg-opacity-10 absolute top-0 w-full h-full hover:backdrop-filter hover:backdrop-blur-sm opacity-0 hover:opacity-100 duration-200">
                   <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-300 text-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
                 </div>

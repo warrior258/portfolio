@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-[#242424] font-ubuntu dark:bg-gray-50 scroll-smooth duration-100
+}
+
+::selection{
+  @apply bg-orange-300 text-[#242424]
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-1
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-gray-500 rounded
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-orange-300 rounded-lg
+}
+
+
+/* .testing{
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.75)),url("/assets/crypto.jpg");
+  background-size: cover;
+	background-position: center;
+} */

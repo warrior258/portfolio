@@ -71,7 +71,9 @@ const App = () => {
               <div className="relative">
                 <img src="assets/crypto.png" alt="" className='w-full' />
                 <div className="group-hover:bg-gray-400 group-hover:bg-opacity-10 absolute top-0 w-full h-full hover:backdrop-filter hover:backdrop-blur-sm opacity-0 hover:opacity-100 duration-200">
-                  <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-300 text-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
+                  <a href="https://github.com/warrior258/cryptostats" target={'_blank'}>
+                    <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-300 text-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
+                  </a>
                 </div>
               </div>
               <div>
@@ -88,7 +90,9 @@ const App = () => {
             <div className="relative">
                 <img src="assets/book.png" alt="" className='w-full' />
                 <div className="group-hover:bg-gray-400 group-hover:bg-opacity-10 absolute top-0 w-full h-full hover:backdrop-filter hover:backdrop-blur-sm opacity-0 hover:opacity-100 duration-200">
-                  <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-orange-300 bg-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
+                  <a href="#">
+                    <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-orange-300 bg-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
+                  </a>
                 </div>
               </div>
               {/* <img src="/assets/book.png" alt="" className='w-full' /> */}
@@ -108,7 +112,9 @@ const App = () => {
             <div className="relative">
                 <img src="assets/courx.png" alt="" className='w-full' />
                 <div className="group-hover:bg-gray-400 group-hover:bg-opacity-10 absolute top-0 w-full h-full hover:backdrop-filter hover:backdrop-blur-sm opacity-0 hover:opacity-100 duration-200">
-                  <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-300 text-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
+                  <a href="https://github.com/warrior258/courx" target={'_blank'}>
+                    <button className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-orange-300 text-[#242424] active:scale-90 duration-200 px-2 rounded-sm">View</button>
+                  </a>
                 </div>
               </div>
               

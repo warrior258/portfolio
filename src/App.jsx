@@ -54,11 +54,12 @@ const App = () => {
         </div>
         
         <div className='text-gray-200 dark:text-[#242424] flex md:flex-row flex-col justify-center items-center md:gap-20 gap-10'>
-          <img src={theme === "dark" ? `assets/heroDark.svg` : `assets/hero.svg`} alt="" className='md:w-4/12 sm:w-6/12 w-8/12' />
+          {theme === "dark" ? (<img src="assets/heroDark.svg" className='md:w-4/12 sm:w-6/12 w-8/12'></img>) : (<img src="assets/hero.svg" className='md:w-4/12 sm:w-6/12 w-8/12'></img>)}
+          {/* <img src={theme === "dark" ? `assets/heroDark.svg` : `assets/hero.svg`} alt="" className='md:w-4/12 sm:w-6/12 w-8/12' /> */}
           <div className='md:w-4/12 sm:w-8/12 w-10/12'>
             <p className='text-justify leading-7 md:text-lg'>Hello, I'm <strong className="text-orange-300">Vaibhav Bedi</strong>. I'm a Developer and Designer. I provide freelance services for Web Development, Facebook ads and desgin content need.</p>
             {/* <p>Join me below!</p> */}
-            <a href="/assets/VaibhavBedi.pdf" download>
+            <a href="assets/VaibhavBedi.pdf" download>
               <button className='mt-5 bg-gray-200 dark:bg-[#242424] dark:text-gray-200 text-[#242424] px-4 py-1 rounded-md shadow font-medium tracking-wide hover:bg-gray-300 duration-200 active:scale-90'>Resume</button>
             </a>
           </div>
